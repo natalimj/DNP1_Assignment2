@@ -13,6 +13,7 @@ namespace FamilyApp.Data
     public class MemberService : IMemberService
     {
         private string uri = "http://dnp.metamate.me";
+        // private string uri = "https://localhost:5003";
 
         private readonly HttpClient client=new HttpClient();
 

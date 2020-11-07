@@ -14,6 +14,7 @@ namespace FamilyApp.Data
     {
         
        private string uri = "http://dnp.metamate.me";
+      // private string uri = "https://localhost:5003";
        private readonly HttpClient client=new HttpClient();
         
         
